@@ -14,20 +14,48 @@ const AdmissionPopup = () => {
   if (!show) return null;
 
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center bg-foreground/60 backdrop-blur-sm animate-fade-in p-4">
-      <div className="relative bg-card rounded-2xl shadow-2xl max-w-xs w-full overflow-hidden border border-border">
+    <div className="fixed inset-0 z-[100] flex items-center justify-center 
+                    bg-black/60 backdrop-blur-sm animate-fade-in p-4">
+
+      {/* Popup Box */}
+      <div className="relative bg-white rounded-2xl shadow-2xl 
+                      w-full max-w-sm md:max-w-md lg:max-w-lg 
+                      max-h-[90vh] overflow-y-auto border">
+
+        {/* Close Button */}
         <button
           onClick={() => setShow(false)}
-          className="absolute top-2 right-2 z-10 bg-destructive text-destructive-foreground rounded-full w-9 h-9 flex items-center justify-center hover:opacity-80 transition-opacity shadow-lg"
-          aria-label="Close"
+          className="absolute top-2 right-2 z-10 bg-red-500 text-white 
+                     rounded-full w-9 h-9 flex items-center justify-center 
+                     hover:opacity-80 transition shadow-lg"
         >
           <X className="w-5 h-5" />
         </button>
-        <img src={pamphletImg} alt="Admissions Open 2025-26" className="w-full max-h-48 object-cover" />
+
+        {/* ✅ Full Visible Image */}
+        <img
+          src={pamphletImg}
+          alt="Admissions Open 2025-26"
+          className="w-full h-auto object-contain rounded-t-2xl"
+        />
+
+        {/* Content */}
         <div className="p-4 text-center">
-          <h3 className="text-lg font-bold text-primary mb-1">Admissions Open 2025-26</h3>
-          <p className="text-xs text-muted-foreground mb-3">B.Pharm | D.Pharm — PCI Approved Programs</p>
-          <Link to="/admissions" onClick={() => setShow(false)} className="btn-main w-full justify-center text-sm py-2">
+          <h3 className="text-lg md:text-xl font-bold text-blue-700 mb-1">
+            Admissions Open 2025-26
+          </h3>
+
+          <p className="text-xs md:text-sm text-gray-600 mb-3">
+            B.Pharm | D.Pharm — PCI Approved Programs
+          </p>
+
+          <Link
+            to="/admissions"
+            onClick={() => setShow(false)}
+            className="w-full inline-block bg-blue-600 text-white 
+                       py-2 rounded-lg text-sm font-medium 
+                       hover:bg-blue-700 transition"
+          >
             Apply Now
           </Link>
         </div>
