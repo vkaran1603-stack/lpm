@@ -8,7 +8,7 @@ const UtilityBar = () => {
         <div className="flex items-center gap-4 ml-auto sm:ml-0">
           <a href="tel:+919876543210" className="flex items-center gap-1 text-primary-foreground/90 hover:text-primary-foreground transition-colors">
             <Phone className="w-3 h-3" />
-            +91 7355441911, 9559001600
+            +91 7355441911, 9559001600, 8687280763
           </a>
           <a href="mailto:lpmcollegeofpharmacy@gmail.com" className="flex items-center gap-1 text-primary-foreground/90 hover:text-primary-foreground transition-colors">
             <Mail className="w-3 h-3" />
