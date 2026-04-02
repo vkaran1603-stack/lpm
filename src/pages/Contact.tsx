@@ -73,7 +73,7 @@ const Contact = () => {
                 <div className="flex gap-3">
                   <Phone className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                   <div className="text-sm">
-                    <p className="font-medium">+91 7355441911, 9559001600</p>
+                    <p className="font-medium">+91 7355441911, 9559001600, 8687280763</p>
                     <p className="text-muted-foreground">Mon–Sat, 9:00 AM – 5:00 PM</p>
                   </div>
                 </div>
