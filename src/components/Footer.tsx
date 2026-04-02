@@ -28,7 +28,7 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Contact Us</h4>
             <div className="text-sm text-primary-foreground/70 space-y-2">
               <p>Purnachhapar Bhatni,<br />Deoria, Uttar Pradesh, India</p>
-              <p>Phone: +91 7355441911, 9559001600</p>
+              <p>Phone: +91 7355441911, 9559001600, 8687280763</p>
               <p>Email: lpmcollegeofpharmacy@gmail.com</p>
             </div>
           </div>
