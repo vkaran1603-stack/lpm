@@ -35,14 +35,14 @@ const AdmissionPopup = () => {
         {/* ✅ Full Visible Image */}
         <img
           src={pamphletImg}
-          alt="Admissions Open 2025-26"
+          alt="Admissions Open 2026-27"
           className="w-full h-auto object-contain rounded-t-2xl"
         />
 
         {/* Content */}
         <div className="p-4 text-center">
           <h3 className="text-lg md:text-xl font-bold text-blue-700 mb-1">
-            Admissions Open 2025-26
+            Admissions Open 2026-27
           </h3>
 
           <p className="text-xs md:text-sm text-gray-600 mb-3">
