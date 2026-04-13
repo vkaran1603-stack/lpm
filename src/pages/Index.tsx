@@ -63,7 +63,7 @@ const Index = () => {
         <div className="absolute inset-0 flex items-end pb-16 md:pb-24">
           <div className="container relative z-10">
             <span className="inline-block bg-primary text-primary-foreground text-sm font-semibold px-4 py-1.5 rounded-full mb-4 animate-fade-in">
-              Admissions Open 2025-26
+              Admissions Open 2026-27
             </span>
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-4 max-w-3xl">
               {slides[current].title}
