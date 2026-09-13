@@ -2,7 +2,7 @@ import { Clock, Users, FileCheck, GraduationCap, BookOpen, FlaskConical } from "
 import bpharmImg from "@/assets/course-bpharm.jpg";
 import dpharmImg from "@/assets/course-dpharm.jpg";
 import mpharmImg from "@/assets/course-mpharm.jpg";
-import veterinaryPharmacyImg from "@/assets/course-veterinaryPharmacyImg";
+import veterinaryPharmacyImg from "@/assets/course-veterinary-pharmacy.jpg";
 
 const courses = [
   {
