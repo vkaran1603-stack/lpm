@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <img src={collegeLogo} alt="LPM Logo" className="w-14 h-14 object-contain bg-primary-foreground rounded-lg p-1" />
-              <h3 className="font-bold text-lg leading-tight">L.P.M. College<br/>of Pharmacy</h3>
+              <h3 className="font-bold text-lg leading-tight">L.P.M. Group<br/>Of Institutions</h3>
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
               Approved by PCI, New Delhi. Affiliated to AKTU, Lucknow & BTEUP. Run by L.P.M. Educational Trust (LPMET). Established 2019, Purnachhapar Bhatni, Deoria, U.P.
@@ -45,7 +45,7 @@ const Footer = () => {
       </div>
       <div className="border-t border-primary-foreground/10 py-6">
         <p className="container text-center text-sm text-primary-foreground/60">
-          © {new Date().getFullYear()} L.P.M. College of Pharmacy, Purnachhapar Bhatni, Deoria. All Rights Reserved.
+          © {new Date().getFullYear()} L.P.M. Group of Institutions, Purnachhapar Bhatni, Deoria. All Rights Reserved.
         </p>
       </div>
     </footer>
