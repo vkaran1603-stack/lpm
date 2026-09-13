@@ -36,7 +36,7 @@ const Navbar = () => {
           <img src={collegeLogo} alt="L.P.M. College of Pharmacy Logo" className="w-12 h-12 object-contain" />
           <div>
             <span className="block font-bold text-primary text-base md:text-lg leading-tight">L.P.M. Group Of Institution</span>
-            <span className="text-[10px] md:text-xs text-muted-foreground uppercase tracking-wider">LPMET | Purnachhapar Bhatni, Deoria</span>
+            <span className="text-[10px] md:text-xs text-muted-foreground uppercase tracking-wider"> LPM COLLEGE OF PHARMACY|LPM COLLEGE OF PARA VETERINARY</span>
           </div>
         </Link>
 
