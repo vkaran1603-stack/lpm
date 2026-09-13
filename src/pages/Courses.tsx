@@ -3,6 +3,7 @@ import bpharmImg from "@/assets/course-bpharm.jpg";
 import dpharmImg from "@/assets/course-dpharm.jpg";
 import mpharmImg from "@/assets/course-mpharm.jpg";
 import veterinaryPharmacyImg from "@/assets/veterinaryPharmacyImg.jpg";
+import livestockExtensionImg from "@/assets/livestockExtensionImg.jpg";
 
 const courses = [
   {
@@ -44,6 +45,23 @@ const courses = [
     "Animal Healthcare",
     "Drug Dispensing Training",
     "Practical Labs"
+  ],
+},
+
+  {
+  name: "Diploma in Livestock Extension",
+  duration: "2 Years",
+  intake: "60 Students",
+  eligibility: "10+2 with Physics, Chemistry, Biology/Mathematics with minimum 45% marks.",
+  description:
+    "A diploma program designed to train students in livestock management, animal husbandry, dairy farming, animal healthcare, rural extension services, and modern livestock production practices. Students gain practical knowledge to support livestock farmers and promote sustainable animal husbandry.",
+  img: livestockExtensionImg,
+  icon: <BookOpen className="w-6 h-6" />,
+  features: [
+    "Livestock Management",
+    "Animal Husbandry",
+    "Dairy Farming",
+    "Rural Extension Services",
   ],
 },
  
