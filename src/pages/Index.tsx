@@ -111,7 +111,7 @@ const Index = () => {
               <img src={chairmanImg} alt="Chairman, LPMET" className="w-32 h-40 object-cover rounded-lg flex-shrink-0" />
               <div>
                 <p className="text-muted-foreground text-sm mb-4 italic">
-                  "L.P.M. College of Pharmacy was founded with the vision of providing world-class pharmaceutical education in the Deoria region. Under L.P.M. Educational Trust, we are committed to nurturing future pharmacists who will serve society with knowledge, skill, and integrity."
+                  "L.P.M. Group of Institution was founded with the vision of providing world-class pharmaceutical education in the Deoria region. Under L.P.M. Educational Trust, we are committed to nurturing future pharmacists who will serve society with knowledge, skill, and integrity."
                 </p>
                 <strong className="text-sm text-foreground">— Chairman, L.P.M. Educational Trust (LPMET)</strong>
               </div>
