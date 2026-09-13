@@ -35,7 +35,7 @@ const courses = [
    {
   name: "Diploma in Veterinary Pharmacy",
   duration: "2 Years",
-  intake: "60 Students",
+  intake: "100 Students",
   eligibility: "10+2 with Physics, Chemistry, Biology/Mathematics with minimum 45% marks.",
   description: "A diploma program designed to train students in veterinary medicines, animal healthcare, drug dispensing, pharmaceutical formulations, and basic veterinary pharmacy practices. Graduates can pursue opportunities in veterinary pharmacies, animal healthcare centers, pharmaceutical industries, and related fields.",
   img: veterinaryPharmacyImg,
@@ -51,7 +51,7 @@ const courses = [
   {
   name: "Diploma in Livestock Extension",
   duration: "2 Years",
-  intake: "60 Students",
+  intake: "100 Students",
   eligibility: "10+2 with Physics, Chemistry, Biology/Mathematics with minimum 45% marks.",
   description:
     "A diploma program designed to train students in livestock management, animal husbandry, dairy farming, animal healthcare, rural extension services, and modern livestock production practices. Students gain practical knowledge to support livestock farmers and promote sustainable animal husbandry.",
