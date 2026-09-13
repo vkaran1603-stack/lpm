@@ -20,7 +20,7 @@ const About = () => {
       <div className="page-header">
         <div className="container">
           <h1>About Our Institution</h1>
-          <p>L.P.M. College of Pharmacy — A legacy of pharmaceutical education since 2019.</p>
+          <p>L.P.M. Group Of Institutions — A legacy of pharmaceutical education since 2019.</p>
         </div>
       </div>
 
@@ -29,7 +29,7 @@ const About = () => {
           <div>
             <h2 className="text-2xl md:text-3xl font-bold mb-4">Who We Are</h2>
             <p className="text-muted-foreground mb-4">
-              L.P.M. College of Pharmacy was established in 2019 under the L.P.M. Educational Trust (LPMET) with a vision to create a centre of excellence in pharmaceutical education and research. Located at Purnachhapar Bhatni, Deoria, Uttar Pradesh, our institution has rapidly grown to become a respected pharmacy college in the region.
+              L.P.M. Group Of Institutions was established in 2019 under the L.P.M. Educational Trust (LPMET) with a vision to create a centre of excellence in pharmaceutical education and research. Located at Purnachhapar Bhatni, Deoria, Uttar Pradesh, our institution has rapidly grown to become a respected pharmacy college in the region.
             </p>
             <p className="text-muted-foreground">
               With state-of-the-art infrastructure, distinguished faculty, and a robust curriculum aligned with PCI guidelines, we prepare students to become competent pharmacists and researchers who make meaningful contributions to healthcare. Our B.Pharm program is affiliated to AKTU, Lucknow and D.Pharm to BTEUP.
@@ -133,7 +133,7 @@ const About = () => {
           <div className="space-y-4 text-muted-foreground">
             <p>Founded in 2019 by the L.P.M. Educational Trust (LPMET), L.P.M. College of Pharmacy began with a vision to bring quality pharmaceutical education to the Purvanchal region of Uttar Pradesh.</p>
             <p>Located at Purnachhapar Bhatni, Deoria, the college received PCI approval and started B.Pharm and D.Pharm programs. The institution quickly gained recognition for its emphasis on practical training and industry-relevant curriculum.</p>
-            <p>In a short span, LPM Pharmacy has invested significantly in infrastructure—building advanced laboratories, a digital library, and modern facilities. We continue to grow and strive towards becoming a leading pharmacy institution in eastern Uttar Pradesh.</p>
+            <p>In a short span, L.P.M. Group Of Institutions has invested significantly in infrastructure—building advanced laboratories, a digital library, and modern facilities. We continue to grow and strive towards becoming a leading pharmacy institution in eastern Uttar Pradesh.</p>
           </div>
         </div>
       </section>
