@@ -14,8 +14,23 @@ const courses = [
     icon: <GraduationCap className="w-6 h-6" />,
     features: ["Hospital & Industry Training", "8 Semester Curriculum", "Research Projects", "GPAT Preparation"],
   },
-  {
-    name: "Diploma in Pharmacy (D.Pharm)",
+ {
+  name: "Diploma in Veterinary Pharmacy",
+  duration: "2 Years",
+  intake: "60 Students",
+  eligibility: "10+2 with Physics, Chemistry, Biology/Mathematics with minimum 45% marks.",
+  description: "A diploma program designed to train students in veterinary medicines, animal healthcare, drug dispensing, pharmaceutical formulations, and basic veterinary pharmacy practices. Graduates can pursue opportunities in veterinary pharmacies, animal healthcare centers, pharmaceutical industries, and related fields.",
+  img: veterinaryPharmacyImg,
+  icon: <BookOpen className="w-6 h-6" />,
+  features: [
+    "Veterinary Medicine Training",
+    "Animal Healthcare",
+    "Drug Dispensing Training",
+    "Practical Labs"
+  ],
+},
+   {
+    name: "Diploma in veterinary pharmacy",
     duration: "2 Years",
     intake: "60 Students",
     eligibility: "10+2 with Physics, Chemistry, Biology/Mathematics with minimum 45% marks.",
